@@ -14,6 +14,8 @@
 		DE2D31FB1F58FC810065F46F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2D31F91F58FC810065F46F /* LaunchScreen.storyboard */; };
 		DE2D32061F58FC810065F46F /* XZMortgageCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D32051F58FC810065F46F /* XZMortgageCalculatorTests.swift */; };
 		DE2D32111F58FC810065F46F /* XZMortgageCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D32101F58FC810065F46F /* XZMortgageCalculatorUITests.swift */; };
+		DE2D32211F592B590065F46F /* XZSecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D32201F592B590065F46F /* XZSecondVC.swift */; };
+		DE2D32231F592BBB0065F46F /* XZFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2D32221F592BBB0065F46F /* XZFirstVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		DE2D320C1F58FC810065F46F /* XZMortgageCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZMortgageCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2D32101F58FC810065F46F /* XZMortgageCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZMortgageCalculatorUITests.swift; sourceTree = "<group>"; };
 		DE2D32121F58FC810065F46F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE2D32201F592B590065F46F /* XZSecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZSecondVC.swift; sourceTree = "<group>"; };
+		DE2D32221F592BBB0065F46F /* XZFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XZFirstVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				DE2D31F01F58FC810065F46F /* AppDelegate.swift */,
 				DE2D31F21F58FC810065F46F /* ViewController.swift */,
+				DE2D32221F592BBB0065F46F /* XZFirstVC.swift */,
+				DE2D32201F592B590065F46F /* XZSecondVC.swift */,
 				DE2D31F41F58FC810065F46F /* Main.storyboard */,
 				DE2D31F71F58FC810065F46F /* Assets.xcassets */,
 				DE2D31F91F58FC810065F46F /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE2D32231F592BBB0065F46F /* XZFirstVC.swift in Sources */,
 				DE2D31F31F58FC810065F46F /* ViewController.swift in Sources */,
+				DE2D32211F592B590065F46F /* XZSecondVC.swift in Sources */,
 				DE2D31F11F58FC810065F46F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -363,7 +371,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +422,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -429,6 +437,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LM4E4MSP3;
 				INFOPLIST_FILE = XZMortgageCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XiangZi.XZMortgageCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3LM4E4MSP3;
 				INFOPLIST_FILE = XZMortgageCalculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = XiangZi.XZMortgageCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";

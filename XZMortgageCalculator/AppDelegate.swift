@@ -6,6 +6,14 @@
 //  Copyright © 2017年 LWX. All rights reserved.
 //
 
+//: 第1天大作业
+
+//: 用面向过程的技能，实现一个房贷计算器。每个同学，必须阐述实现原理。
+
+
+//: 假设小波贷款买了一套房，房贷总价 150万元，利率4.9%，分期30年，首付3成。 求按等额本金还款方式下，每个月利息列表 和 购买此套房的总花费。
+
+
 import UIKit
 
 @UIApplicationMain
@@ -16,6 +24,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        let firstVC = XZFirstVC()
+        let nav = UINavigationController(rootViewController : firstVC)
+        
+        window?.rootViewController = nav
+        
+        window?.backgroundColor = UIColor.white
+        
         return true
     }
 
